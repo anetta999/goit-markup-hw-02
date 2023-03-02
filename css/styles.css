@@ -1,0 +1,156 @@
+:root {
+  --primary-text-color: #434455;
+  --headings-color: #2e2f42;
+  --accent-color: #e7e9fc;
+  --brand-color: #4d5ae5;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f4f4fd;
+  --hero-footer-background-color: #2e2f42;
+  --hover-color: #404bbf;
+}
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+}
+
+/* Header */
+/* Logo */
+.primary-logo,
+.secondary-logo {
+  color: var(--brand-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.primary-logo-text {
+  color: var(--headings-color);
+}
+.secondary-logo-text {
+  color: var(--accent-color);
+}
+/* Navigation */
+.nav-link {
+  color: var(--headings-color);
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hover-color);
+}
+/* Contacts */
+.contacts-link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  text-decoration: none;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--hover-color);
+}
+/* Hero */
+.hero {
+  background-color: var(--hero-footer-background-color);
+}
+
+.hero-heading {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.first-button {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.first-button:hover,
+.first-button:focus {
+  background-color: var(--hover-color);
+}
+
+/* About us, What are we doing, Our team h2-heading */
+
+.values-heading,
+.services-heading,
+.team-heading {
+  color: var(--headings-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* About us, What are we doing, Our team, Portfolio h3-heading */
+
+.values-list-heading,
+.services-list-heading,
+.team-list-heading,
+.portfolio-item-heading {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* What are we doing */
+
+/* Our team */
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--hero-footer-background-color);
+}
+
+.footer-text {
+  color: var(--accent-color);
+}
+
+/* Portfolio */
+
+/* Portfolio filter */
+.second-button {
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  color: var(--brand-color);
+  font-family: inherit;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.second-button:hover,
+.second-button:focus {
+  background-color: var(--hover-color);
+  color: #ffffff;
+}
+
+/* Portfolio gallery */
+
+.portfolio-link {
+  text-decoration: none;
+  font-style: normal;
+  color: inherit;
+}
