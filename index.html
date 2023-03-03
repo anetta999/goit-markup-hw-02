@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -12,28 +14,28 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="primary-logo" href="./index.html"
-          >Web<span class="primary-logo-text">Studio</span>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo link" href="./index.html"
+          >Web<span class="header-logo">Studio</span>
         </a>
-        <ul class="site-nav list">
-          <li><a class="nav-link" href="./index.html">Studio</a></li>
+        <ul class="nav-list list">
+          <li><a class="nav-link link" href="./index.html">Studio</a></li>
           <li>
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li><a class="nav-link" href="">Contacts</a></li>
+          <li><a class="nav-link link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul class="contacts list">
+      <address class="contacts">
+        <ul class="contacts-list list">
           <li>
-            <a class="contacts-link" href="mailto:info@devstudio.com"
+            <a class="contacts-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contacts-link" href="tel:+110001111111"
+            <a class="contacts-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -45,37 +47,37 @@
       <!-- Hero -->
       <section class="hero">
         <h1 class="hero-heading">Effective Solutions for Your Business</h1>
-        <button class="first-button" type="button">Order Service</button>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
 
       <!-- About us -->
       <section class="values">
-        <h2 class="values-heading">About us</h2>
+        <h2 hidden class="values-heading">About us</h2>
         <ul class="values-list list">
           <li>
             <h3 class="values-list-heading">Strategy</h3>
-            <p>
+            <p class="values-list-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
             <h3 class="values-list-heading">Punctuality</h3>
-            <p>
+            <p class="values-list-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
             <h3 class="values-list-heading">Diligence</h3>
-            <p>
+            <p class="values-list-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
             <h3 class="values-list-heading">Technologies</h3>
-            <p>
+            <p class="values-list-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -126,7 +128,7 @@
               height="260"
             />
             <h3 class="team-list-heading">Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <p class="team-list-text">Product Designer</p>
           </li>
           <li>
             <img
@@ -136,7 +138,7 @@
               height="260"
             />
             <h3 class="team-list-heading">Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <p class="team-list-text">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -146,7 +148,7 @@
               height="260"
             />
             <h3 class="team-list-heading">Camila Garcia</h3>
-            <p>Marketing</p>
+            <p class="team-list-text">Marketing</p>
           </li>
           <li>
             <img
@@ -156,15 +158,15 @@
               height="260"
             />
             <h3 class="team-list-heading">Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <p class="team-list-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="secondary-logo" href="./index.html"
-        >Web<span class="secondary-logo-text">Studio</span>
+      <a class="logo link" href="./index.html"
+        >Web<span class="footer-logo">Studio</span>
       </a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
